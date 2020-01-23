@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Certificate Verification System</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="adminstyle.css">
+   
+
+</head>
+<body>
+
+   <h2 align="center">Sign up</h2>
+
+ 
+
+     <div class="container-fluid" align="center">
+         <form action="signup.php" method="post">
+             <label for="Username">Username</label><br>
+             <input type="text" name="userna" placeholder="Enter username"><br>
+             <label for="password">Password</label><br>
+             <input type="password" name="userpassword" placeholder="Enter password"><br><br>
+             <label for="Category">Category</label><br>
+               <select name="category">
+            	<option>Admin</option>
+                <option>Student</option>
+            </select><br><br>
+             <input type="submit" name="signup" class="btn btn-primary" value="Sign Up">
+         </form>
+           <br><br>
+     </div>
+
+
+
+
+<script src="jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
